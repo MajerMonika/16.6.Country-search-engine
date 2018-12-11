@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: center;
+  color: #555;
+}
+
+h1 {
+  margin: 100px 0;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+
+#search {
+  height: 60px;
+  padding: 10px 30px;
+  border: 2px solid #333;
+  font-size: 32px;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#search:hover {
+  background-color: #aaa;
+  color: #333;
+}
+
+input {
+  height: 60px;
+  max-width: 350px;
+  padding: 10px 30px;
+  border: 2px solid #555;
+  font-size: 32px;
+  background-color: #eee;
+  color: #555;
+}
+
+li {
+  margin: 0 15%;
+  line-height: 150%;
+  list-style-type: none;
+  font-size: 22px;
+  text-align: left;
+}
